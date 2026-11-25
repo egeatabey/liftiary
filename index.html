@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liftiary — Support</title>
+  <style>
+    :root {
+      --bg: #0c0d10;
+      --card: #16181f;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --accent: #ff6a3d;
+      --green: #33d67a;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px 32px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 106, 61, 0.15);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h1 { margin: 0 0 8px; font-size: 2.2rem; letter-spacing: -0.02em; }
+    .subtitle { color: var(--muted); margin: 0 0 28px; font-size: 1.05rem; }
+    h2 { margin-top: 28px; font-size: 1.15rem; color: var(--accent); }
+    p, li { color: #d1d5db; }
+    .faq-item {
+      border-top: 1px solid var(--border);
+      padding: 14px 0;
+    }
+    .faq-q { font-weight: 600; color: var(--text); margin-bottom: 4px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <span class="badge">iOS Workout Tracker</span>
+    <h1>Liftiary</h1>
+    <p class="subtitle">Fast, private strength training log with workout splits, animated exercise guides, PR tracking, and smart gym reminders.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">How do I switch between KG and LB?</div>
+      <p>Triple-tap anywhere on the main screen with three fingers to toggle instantly between kilograms (KG) and pounds (LB). All logged lifts and planned sets convert automatically.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How do gym reminders work?</div>
+      <p>Tap the bell icon on the main screen to add, edit, or toggle daily motivational reminder times. Once you check off "Went to the gym today" or complete a set, remaining reminders for that day are silenced automatically.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Where is my workout data stored?</div>
+      <p>All of your data stays 100% locally on your iPhone. No account is required, and no data is ever sent to external servers.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How are Personal Records (PRs) calculated?</div>
+      <p>Liftiary tracks your best sets and calculates your estimated 1-Rep Max (e1RM) for each exercise. Tap the PRs pill at the bottom of the screen to view all your records.</p>
+    </div>
+
+    <h2 id="contact">Contact &amp; Support</h2>
+    <p>Need help, found a bug, or have a feature request? Email us anytime at <a href="mailto:ege.atabey05@gmail.com">ege.atabey05@gmail.com</a>.</p>
+
+    <footer>
+      <span>© 2026 Liftiary</span>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </main>
+</body>
+</html>
